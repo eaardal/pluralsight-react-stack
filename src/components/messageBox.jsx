@@ -25,7 +25,6 @@ class MessageBox extends React.Component {
                 message: ''
             });
             
-            console.log('sent msg', evnt.target.value);
             this.firebaseRef.push({
                 message: this.state.message
             });
