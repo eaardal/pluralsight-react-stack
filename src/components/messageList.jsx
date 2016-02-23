@@ -15,7 +15,7 @@ class MessageList extends React.Component {
     render() {
         var messageNodes = this.state.messages.map((message) => {
            return (
-             <div style={{color: 'red'}} key={message}>test asd asd {message}</div>  
+             <div key={message}>test asd asd {message}</div>  
            );
         });
         
