@@ -1,4 +1,5 @@
 import React from 'react';
+import Message from './message.jsx';
 
 class MessageList extends React.Component {
     constructor(props) {
@@ -15,12 +16,12 @@ class MessageList extends React.Component {
     render() {
         var messageNodes = this.state.messages.map((message) => {
            return (
-             <div key={message}>test asd asd {message}</div>  
+             <Message key={message} message={message} />  
            );
         });
         
         return (
-            <div>{messageNodes}</div>
+            <ul style={{flexGrow: 2}}>{messageNodes}</ul>
         )
     }
     
