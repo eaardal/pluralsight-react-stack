@@ -1,0 +1,14 @@
+{
+    "messages": {
+        "0": {
+            "message": "hi there",
+            "date": "Wed, 08 Jul 2015 18:14:27 GMT",
+            "author": "Eirik"            
+        },
+        "1": {
+            "message": "hello dude",
+            "date": "Thu, 09 Jul 2015 12:19:17 GMT",
+            "author": "Bob"            
+        }
+    }
+}
